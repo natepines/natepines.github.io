@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>Nate Pines' Lab 4</title>
-  <link href="style.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
 
+<body> 
 <header>
     <h1>Nate Pines' Lab 4</h1>
 </header>
@@ -15,12 +16,12 @@
     <form action="/api" method="post">
       <ul class="flex-outer">
         <li>
-          <label for="first-name">First Name</label>
-          <input type="text" id="first-name" name="first-name" placeholder="Enter your first name here" maxlength="140">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname" placeholder="Enter your first name here" maxlength="140">
         </li>
         <li>
-          <label for="last-name">Last Name</label>
-          <input type="text" id="last-name" name="last-name" placeholder="Enter your last name here" maxlength="140">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname" placeholder="Enter your last name here" maxlength="140">
         </li>
         <li>
           <label for="email">Email</label>
@@ -38,23 +39,25 @@
           <p>Age</p>
           <ul class="flex-inner">
             <li>
-              <input type="checkbox" id="eighteen-to-thirtyfive">
-              <label for="twenty-to-twentynine">18-35</label>
+              <input type="checkbox" id="eighteen-to-thirtyfive" name="eighteen-to-thirtyfive">
+              <label for="eighteen-to-thirtyfive">18-35</label>
             </li>
             <li>
-              <input type="checkbox" id="thirtyfive-to-fifty">
-              <label for="thirty-to-thirtynine">35-50</label>
+              <input type="checkbox" id="thirtyfive-to-fifty" name="thirtyfive-to-fifty">
+              <label for="thirtyfive-to-fifty">35-50</label>
             </li>
             <li>
-              <input type="checkbox" id="fifty-to-sixtyfive">
-              <label for="fourty-to-fourtynine">50-65</label>
+              <input type="checkbox" id="fifty-to-sixtyfive" name="fifty-to-sixtyfive">
+              <label for="fifty-to-sixtyfive">50-65</label>
             </li>
             
           </ul>
         </li>
         <li>
-          <button type="submit">SUBMIT FORM</button>
+          <button type="submit" name="button" id="button">SUBMIT FORM</button>
         </li>
       </ul>
     </form>
   </div>
+</body>
+</html>
