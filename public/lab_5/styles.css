@@ -1,6 +1,6 @@
 body {
     font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
-    background: #8c5ae9;
+    background: #3AAFAB;
     color: #fff;
     padding: 50px 0;
   }
@@ -93,5 +93,6 @@ body {
   }
 
   .checkbox-list-label {
-
+    padding: 0px;
+    margin: 0px;
   }
