@@ -28,7 +28,7 @@ document.body.addEventListener('submit', async (e) => {
     body: JSON.stringify(form)
   })
     .then((fromServer) => fromServer.json())
-    .then((fromServer) => {
+    .then((fromServer) => { console.log(fromServer)
       if (document.querySelector('.flex-inner')) {
         document.querySelector('.flex-inner').remove();
       }
